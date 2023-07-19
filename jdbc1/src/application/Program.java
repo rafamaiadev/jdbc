@@ -18,7 +18,7 @@ public class Program {
             st = conn.createStatement();
 
             rs = st.executeQuery("select * from department");
-            
+
             while (rs.next()) {
                 System.out.println(rs.getInt("Id") + ", " + rs.getString("Name"));
             }
