@@ -1,8 +1,6 @@
 package model.entities;
 
-import javax.swing.plaf.SliderUI;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
